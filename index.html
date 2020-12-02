@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>CPI 101 Final Project - Davis Burns and Victoria Stratton</title>
+  </head>
+  <body>
+    <div class="sidenav">
+      <a href="index.html">Home</a>
+      <a href="artists.html">Featured Brands</a>
+      <a href="products.html">Available Products</a>
+      <a href="ar_index.html">Scan for Products</a>
+      <a href="statistics.html">The Importance of Wearing a Mask</a>
+    </div>
+    <div id="main">
+      <h1>Home</h1>
+      <h2>Welcome to our website!</h2>
+      <p>
+        We have carefully designed our website with the intention of helping artists and small business owners during Covid-19. Many families and individuals have experienced job losses and/or pay cuts due to the onslaught of this pandemic. As a result, disposable income is not as readily available to these individuals. This has created a negative impact on artists and small business owners. In today’s times, consumers are not as willing to spend money on items which are not deemed completely necessary, so the demand for the services of these individuals has decreased dramatically. We are highlighting businesses that support various causes during these unprecedented times. We hope that our website demonstrates the challenges that these artists are facing, provides a solution to their problems, and makes individuals aware of the magnanimity of their actions. Please take a look around!
+      </p>
+      <p>
+        <img width="100px" align=right src="markers/Shop_Small_Logo_Blue.png" alt="#"/>
+      </p>
+    </div>
+  </body>
+</html> 
