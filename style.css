@@ -1,0 +1,83 @@
+body {
+  font-family: "Bookman Old Style";
+  background-color: #F6F5F5;
+  text-align: center;
+}
+
+body a:link, a:visited {
+  text-decoration: none;
+  color: #145374
+  background-color: #F6F5F5;
+}
+
+body a:hover, a:active {
+  text-decoration: none;
+  color: #00334E;
+  background-color: #F6F5F5;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #EE6F57;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.sidenav a:link, a:visited {
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  background-color: #EE6F57;
+  color: #145374;
+  display: block;
+}
+
+.sidenav a:hover, a:active {
+  background-color: #EE6F57;
+  color: #00334E;
+}
+
+#main {
+  margin-left: 250px;
+  padding: 0;
+  background-color: #F6F5F5;
+  color: #145374;
+}
+
+#main a:link, a:visited {
+  text-decoration: none;
+  color: #145374
+  background-color: #F6F5F5;
+}
+
+#main a:hover, a:active {
+  text-decoration: none;
+  color: #00334E;
+  background-color: #F6F5F5;
+}
+
+#main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#main h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#main p {
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
